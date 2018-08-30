@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32487a16-9c84-4803-9939-7168a7d65df6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/development.html" beforeDir="false" afterPath="$PROJECT_DIR$/development.html" afterDir="false" />
-    </list>
+    <list default="true" id="32487a16-9c84-4803-9939-7168a7d65df6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/development.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+              <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -96,16 +92,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535627335571</updated>
-      <workItem from="1535627338282" duration="591000" />
+      <workItem from="1535627338282" duration="810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591000" />
+    <option name="totallyTimeSpent" value="810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -141,7 +136,7 @@
     <entry file="file://$PROJECT_DIR$/development.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
         </state>
       </provider>
     </entry>
