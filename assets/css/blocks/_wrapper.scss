@@ -1,0 +1,31 @@
+.wrapper {
+
+  max-width: $wrapper-size;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+
+  @include respond-to(md, lg) {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+
+  @include respond-to(xs, sm) {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  &--intro {
+
+    width: 65%;
+    float: right;
+
+    @include respond-to(xs, sm, md) {
+      width: 100%;
+      float: none;
+    }
+
+  }
+
+}

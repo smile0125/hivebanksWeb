@@ -1,0 +1,93 @@
+//
+//  Responsive Break Points
+//
+
+$break-xs:  320px;
+$break-sm:  480px;
+$break-md:  768px;
+$break-lg:  1024px;
+$break-xl:  1145px;
+
+
+//
+//  Set application colours
+//
+
+$background-color:    #fff;
+$primary-bg-color:    #fff;
+
+
+//
+//  Set some application sizes
+//
+
+$header-height: 75px;
+$header-height-responsive: 75px;
+$footer-height: 450px;
+$wrapper-size:  1070px;
+$responsive-padding: 0 25px;
+
+//
+//  Set default padding sizes
+//
+
+$padding-xs: 50px;
+$padding-sm: 50px;
+$padding-md: 50px;
+$padding-lg: 50px;
+$padding-xl: 75px;
+
+//
+//  Application fonts
+//
+
+$font-body:         'Roboto', sans-serif;
+$font-sub-heading:  'Roboto', sans-serif;
+$font-heading:      'Roboto', sans-serif;
+
+//
+// Import fonts
+//
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+//
+//  Standard Border Radius
+//
+
+$radius-standard: 3px;
+
+
+//
+//  Transition Times
+//
+
+$transition-standard: 0.4s;
+$transition-quick:    0.2s;
+$transition-slow:     0.6s;
+$transition-type:     ease;

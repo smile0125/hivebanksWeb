@@ -1,0 +1,68 @@
+.role-table {
+
+	width: 90%;
+  margin: 50px auto;
+	border-collapse: collapse;
+
+  tr {
+
+  	@include respond-to(xs, sm) {
+			display: flex;
+			flex-direction: column;
+			width: 100%;		
+		}
+
+  	td {
+  		font-size: 15px;
+	  	padding: 15px 0;
+	  	vertical-align: top;
+
+	  	.heading {
+	  		font-size: 16px;
+	  		font-weight: 400;
+	  	}
+
+	  	p {
+	  		margin: 10px 0;
+	  	}
+  	}
+
+		td:first-child {
+
+			width: 45%;
+			font-weight: 400;
+			border-right: 1px solid $light-theme-color;
+			font-size: 16px;
+			text-align: right;
+			padding-right: 30px !important;
+
+			@include respond-to(xs, sm) {
+				width: 100%;
+				border-right: none;
+				text-align: left;
+				padding-bottom: 0;
+			}
+
+		}
+
+		td:last-child {
+
+			padding-left: 30px !important;
+
+			@include respond-to(xs, sm) {
+				border-bottom: 1px solid $light-theme-color;
+				padding-left: 0 !important;
+				padding-top: 0;
+			}
+
+		}
+
+		&:last-child {
+			td {
+				border: none;
+			}
+		}
+
+  }
+
+}

@@ -1,0 +1,40 @@
+//
+//  Transition Delay
+//
+
+@mixin generate-transition-delay( $element, $number-of-children, $base-delay ) {
+
+  @for $i from 1 through $number-of-children {
+    #{$element}:nth-of-type(#{$i}) {
+      transition-delay: $base-delay + $i * 100ms;
+    }
+
+  }
+
+}
+
+@mixin generate-transition-delay-sub-children( $element, $child-element, $number-of-children, $number-of-sub-children, $base-delay ) {
+
+  $delay-count: 1;
+
+  @for $i from 1 through $number-of-children {
+    #{$element}:nth-child(#{$i}) {
+      transition-delay: $base-delay + $delay-count * 100ms;
+
+      @for $j from 1 through $number-of-sub-children {
+
+        #{$child-element}:nth-child(#{$j}) {
+          transition-delay: $base-delay + $delay-count * 100ms;
+        }
+
+        $delay-count: $delay-count + 1;
+
+      }
+
+    }
+
+    $delay-count: $delay-count + 1;
+
+  }
+
+}

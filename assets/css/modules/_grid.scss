@@ -1,0 +1,65 @@
+//
+//  Grid System
+//
+
+$grid-size: 12;
+$col-slug: column;
+
+@mixin column($size) {
+
+  $the_percentage: percentage( $size / $grid-size );
+
+  flex-basis: #{$the_percentage};
+  max-width: #{$the_percentage};
+  flex-grow: 1;
+
+}
+
+@mixin generate-responsive-grid( $responsive-size ) {
+
+  @for $i from 1 through $grid-size {
+    .#{$col-slug}__#{$responsive-size}--#{$i} {
+
+      width: 100%;
+      display: block;
+      padding: 0 15px 0 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+
+      @include respond( $responsive-size ) {
+        @include column( $i );
+        padding: 0 15px 0 0;
+      }
+
+    }
+
+    .hidden__#{$responsive-size} {
+
+      @include respond-to( $responsive-size ) {
+        display: none !important;
+      }
+
+    }
+
+  }
+
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 0;
+  width: calc(100% + 15px);
+  height: 100%;
+}
+
+@include generate-responsive-grid( xs );
+@include generate-responsive-grid( sm );
+@include generate-responsive-grid( md );
+@include generate-responsive-grid( lg );
+@include generate-responsive-grid( xl );

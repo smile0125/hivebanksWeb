@@ -1,0 +1,75 @@
+.form {
+
+	width: 500px;
+	margin: auto;
+
+	&-group {
+		
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		padding: 10px 0;
+
+		.form-item {
+
+			width: 100%;
+
+			&:not(:first-child) {
+				margin-left: 10px;
+			}
+
+			input, textarea {
+
+				width: 100%;
+				outline: none;
+				padding: 15px;
+				border: 1px solid $light-theme-color;
+				border-radius: 3px;
+				background-color: transparent;
+				color: #fff;
+
+				&:focus {
+					border: 1px solid $theme-color;
+				}
+
+				@include placeholder {
+					font-size: 14px;
+					font-family: $font-body;
+					color: $light-theme-color;
+					font-weight: 300;
+				}
+
+			}
+
+			textarea {
+				height: 250px;
+				resize: none;
+			}
+
+		}
+
+	}
+
+	@include respond-to(xs, sm) {
+
+		width: 100%;
+
+		&-group {
+			flex-direction: column;
+
+			.form-item:not(:first-child) {
+				margin-left: 0px;
+				margin-top: 20px;
+			}
+		}
+
+	}
+
+}
+
+
+.contact-form {
+
+	margin-bottom: 80px;
+
+}

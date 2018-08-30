@@ -1,0 +1,24 @@
+//
+//  Box Shadow Generator
+//
+
+@mixin box-shadow() {
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+}
+
+@mixin deep-shadow() {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+}
+
+@mixin theme-gradient() {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#EC9944+0,F1AE6A+100 */
+	background: #EC9944; /* Old browsers */
+	background: -moz-linear-gradient(top, #EC9944 0%, #F1AE6A 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #EC9944 0%,#F1AE6A 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #EC9944 0%,#F1AE6A 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EC9944', endColorstr='#F1AE6A',GradientType=0 ); /* IE6-9 */
+}

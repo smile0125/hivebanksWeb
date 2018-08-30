@@ -1,0 +1,135 @@
+
+//
+//  Modals
+//
+
+.modal {
+
+  position: fixed;
+
+  z-index: 9999;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgba(#000, 0.7);
+
+  // Allow smooth transitions
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+
+  opacity: 1;
+
+  &[data-active="false"] {
+    opacity: 0;
+    pointer-events: none;
+
+    .modal__content {
+      -webkit-transform: translate(-50%, -80%);
+      -moz-transform: translate(-50%, -80%);
+      -ms-transform: translate(-50%, -80%);
+      -o-transform: translate(-50%, -80%);
+      transform: translate(-50%, -80%);
+
+      @include respond-to(xs, sm, md) {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+
+      }
+
+
+    }
+  }
+
+  .modal__close {
+    display: inline;
+    float: right;
+    cursor: pointer;
+  }
+
+  .modal__content {
+    position: absolute;
+
+    width: 600px;
+    max-width: 100%;
+    min-height: 400px;
+    max-height: 700px;
+    //overflow-y: scroll;
+
+    top: 50%;
+    left: 50%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    // Allow smooth transitions
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+    background-color: #FFF;
+
+    border-radius: 5px;
+    padding: 20px;
+
+    @include respond-to(xs, sm, md) {
+
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+      transform: none;
+
+      border-radius: 0;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      max-height: none;
+      max-width: none;
+
+    }
+
+    .modal__dismiss {
+
+      position: absolute;
+      height: 50px;
+      right: 20px;
+      top: 0;
+      line-height: 50px;
+      color: rgba(#000, 0.3);
+      font-weight: 100;
+      font-size: 20px;
+      cursor: pointer;
+
+      // Allow smooth transitions
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+
+      &:hover {
+        color: rgba(#F00, 0.3);
+      }
+
+    }
+
+  }
+
+}

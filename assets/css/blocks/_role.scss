@@ -1,0 +1,87 @@
+.role {
+
+	border-radius: 5px;
+  padding-bottom: 30px;
+
+	@include respond(md) {
+		padding: 20px;
+	}
+
+  &:not(.role--main) {
+
+  	cursor: pointer;
+
+  	@include transition();
+
+		&:hover {
+			@include box-shadow();
+			@include transformScale( 1.05 );
+			border: 1px solid #fff;
+		}
+  }
+
+  &--main {
+
+  	@include respond-to(xs, sm, md) {
+  		margin: auto;
+  	}
+
+  	.role__icon {
+
+			img {
+				width: 150px;
+
+				@include respond-to(xs, sm) {
+
+					width: 80px;
+
+				}
+			}
+
+		}
+
+  }
+	
+	&__icon {
+
+		padding: 20px;
+		text-align: center;
+
+		img {
+			width: 120px;
+
+			@include respond-to(xs, sm) {
+
+				width: 80px;
+
+			}
+		}
+
+	}
+
+	.role__name {
+			
+			font-weight: 400;
+			font-size: 17px;
+			text-align: center;
+	
+		}
+
+}
+
+
+.main-role {
+
+	display: flex;
+	justify-content: space-between;
+	
+
+}
+
+.main-role__pattern {
+
+	@include respond-to(xs, sm, md) {
+		display: none;
+	}
+
+}

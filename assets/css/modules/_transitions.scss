@@ -1,0 +1,67 @@
+//
+//  Smooth Transitions
+//
+
+@mixin transition( $speed: '', $attribute: '' ) {
+
+  @if $attribute == '' {
+
+    $attribute: all;
+
+  }
+
+  @if $speed == quick {
+
+    -webkit-transition: $attribute $transition-quick $transition-type;
+    -moz-transition: $attribute $transition-quick $transition-type;
+    -ms-transition: $attribute $transition-quick $transition-type;
+    -o-transition: $attribute $transition-quick $transition-type;
+    transition: $attribute $transition-quick $transition-type;
+
+  } @else if $speed == slow {
+
+    -webkit-transition: $attribute $transition-slow $transition-type;
+    -moz-transition: $attribute $transition-slow $transition-type;
+    -ms-transition: $attribute $transition-slow $transition-type;
+    -o-transition: $attribute $transition-slow $transition-type;
+    transition: $attribute $transition-slow $transition-type;
+
+  } @else if $speed == none {
+
+    -webkit-transition: $attribute 0.0s $transition-type;
+    -moz-transition: $attribute 0.0s $transition-type;
+    -ms-transition: $attribute 0.0s $transition-type;
+    -o-transition: $attribute 0.0s $transition-type;
+    transition: $attribute 0.0s $transition-type;
+
+  } @else {
+
+    -webkit-transition: $attribute $transition-standard $transition-type;
+    -moz-transition: $attribute $transition-standard $transition-type;
+    -ms-transition: $attribute $transition-standard $transition-type;
+    -o-transition: $attribute $transition-standard $transition-type;
+    transition: $attribute $transition-standard $transition-type;
+
+  }
+
+}
+
+@mixin transformScale( $size ) {
+
+  transform: scale($size, $size);
+
+  -webkit-transform:scale($size, $size); /* Chrome, Safari, Opera */
+
+  -ms-transform:scale($size, $size); /* IE 9 */
+
+}
+
+@mixin transformTranslateX( $x ) {
+
+  transform: translateX($x);
+
+  -webkit-transform:translateX($x); /* Chrome, Safari, Opera */
+
+  -ms-transform: translateX($x); /* IE 9 */
+
+}

@@ -1,0 +1,143 @@
+
+//
+//  Responsive Mix-ins
+//
+
+//
+//  Media Query Generator
+//
+
+@mixin respond($media...) {
+
+  @each $var in $media {
+
+    @if $var == xs {
+      @media only screen and (min-width: $break-xs + 1) {
+        @content;
+      }
+    } @else if $var == sm {
+      @media only screen and (min-width: $break-sm + 1) {
+        @content;
+      }
+    } @else if $var == md {
+      @media only screen and (min-width: $break-md + 1) {
+        @content;
+      }
+    } @else if $var == lg {
+      @media only screen and (min-width: $break-lg + 1) {
+        @content;
+      }
+    } @else if $var == xl {
+      @media only screen and (min-width: $break-xl + 1) {
+        @content;
+      }
+    }
+
+  }
+}
+
+@mixin respond-to($media...) {
+
+  @each $var in $media {
+
+    @if $var == xs {
+      @media only screen and (max-width: $break-xs) {
+        @content;
+      }
+    } @else if $var == sm {
+      @media only screen and (max-width: $break-sm) and (min-width: $break-xs + 1) {
+        @content;
+      }
+    } @else if $var == md {
+      @media only screen and (max-width: $break-md) and (min-width: $break-sm + 1) {
+        @content;
+      }
+    } @else if $var == lg {
+      @media only screen and (max-width: $break-lg) and (min-width: $break-md + 1) {
+        @content;
+      }
+    } @else if $var == xl {
+      @media only screen and (min-width: $break-lg + 1) {
+        @content;
+      }
+    }
+
+  }
+}
+
+//
+//  Hamburger Menu
+//
+
+@mixin hamburger_menu($bar_height, $width, $padding, $colour) {
+
+  width: $width;
+  height: $bar_height * 3 + $padding * 2;
+  vertical-align: middle;
+  cursor: pointer;
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+  span {
+    height: $bar_height;
+    top: $bar_height + $padding;
+    right: 0;
+    background-color: $colour;
+    width: 100%;
+    display: block;
+    position: absolute;
+    border-radius: 2px;
+
+    -webkit-transition: all 0.3s, opacity 0.1s;
+    -moz-transition: all 0.3s, opacity 0.1s;
+    -ms-transition: all 0.3s, opacity 0.1s;
+    -o-transition: all 0.3s, opacity 0.1s;
+    transition: all 0.3s, opacity 0.1s;
+
+  }
+
+  span:first-child {
+    top: 0;
+  }
+
+  span:last-child {
+    top: ($bar_height + $padding) * 2;
+  }
+
+  &--active {
+
+    span:nth-child(2):not(:last-child) {
+      opacity: 0;
+      -webkit-transform: translateX(-100%);
+      -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      -o-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+
+    span:first-child {
+      -webkit-transform: rotate(-45deg) translateY(($bar_height + ($padding * 2)));
+      -moz-transform: rotate(-45deg) translateY(($bar_height + ($padding * 2)));
+      -ms-transform: rotate(-45deg) translateY(($bar_height + ($padding * 2)));
+      -o-transform: rotate(-45deg) translateY(($bar_height + ($padding * 2)));
+      transform: rotate(-45deg) translateY(($bar_height + ($padding * 2)));
+      right: $padding;
+    }
+
+    span:last-child {
+      -webkit-transform: rotate(45deg) translateY(-($bar_height + ($padding * 2)));
+      -moz-transform: rotate(45deg) translateY(-($bar_height + ($padding * 2)));
+      -ms-transform: rotate(45deg) translateY(-($bar_height + ($padding * 2)));
+      -o-transform: rotate(45deg) translateY(-($bar_height + ($padding * 2)));
+      transform: rotate(45deg) translateY(-($bar_height + ($padding * 2)));
+      top: ($bar_height + ($padding * 3));
+      right: $padding;
+    }
+
+  }
+
+}

@@ -1,0 +1,58 @@
+img{width: 100%}
+.partners img{width: 80%}
+.teamBox img {
+    width: 70%;
+    border-radius: 100%;
+}
+
+.margin-top-10 {
+    margin-top: 10%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a.demoLink:after {
+    content: '';
+    display: block;
+    width: 0;
+    border-bottom: 2px solid #ffffff;
+    transition-duration: 0.3s;
+}
+
+.demoLink:hover:after {
+    color: red;
+    width: 30%;
+}
+.flex{
+    display: flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+}
+.flex.center{
+    justify-content: center;
+}
+.flex.align-center{
+    align-items: center;
+}
+.address{
+    display: inline-block;
+}
+.address:hover{
+    animation: address .5s linear;
+    border-bottom: 2px solid #ffffff;
+}
+@keyframes address {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 8%;
+    }
+    100%{
+        width: 15%;
+    }
+}
