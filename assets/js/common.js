@@ -42,11 +42,13 @@ function IsEmail(s) {
 // 调用API共通函数
 function CallApi(api_url, post_data, suc_func, error_func) {
 
-    var api_site = 'http://www.fnying.com/php/';
+    var api_site = 'http://ow.fnying.com/website/';
 
     post_data = post_data || {};
-    suc_func = suc_func || function () {};
-    error_func = error_func || function () {};
+    suc_func = suc_func || function () {
+    };
+    error_func = error_func || function () {
+    };
 
     //console.log('Call API:' + api_url);
     //console.log(JSON.stringify(post_data));
@@ -73,16 +75,29 @@ function CallApi(api_url, post_data, suc_func, error_func) {
         }
     });
 }
+
 // 获取用户UUID
 function GetUUID(post_data, suc_func, error_func) {
     var api_url = 'get_uuid.php';
     CallApi(api_url, post_data, suc_func, error_func);
 }
 
+//获取阶段内容
+function GetStageContent(suc_func, error_func) {
+    var api_url = 'development.php',
+        post_data = {};
+    CallApi(api_url, post_data, suc_func, error_func);
+}
+
 //contact us
-function ContactUs(uuid,user_name, user_email, user_suggestion,suc_func, error_func){
+function ContactUs(first_name, last_name, email, content, suc_func, error_func) {
     var api_url = 'contact_us.php';
-    var post_data = {"uuid": uuid,"user_name": user_name, "user_email": user_email, "user_suggestion": user_suggestion};
+    var post_data = {
+        "first_name": first_name,
+        "last_name": last_name,
+        "email": email,
+        "content": content
+    };
     CallApi(api_url, post_data, suc_func, error_func);
 }
 

@@ -67,62 +67,62 @@
     <div class="wrapper">
         <h2 class="section-header">Project Progress</h2>
         <table class="role-table">
-            <tbody>
-            <tr>
-                <td><p>The First Stage</p></td>
-                <td>
-                    <p class="heading">HiveBanks front-end page design and code writing</p>
-                    <p>The first phase of the project was written primarily for the front-end pages of HiveBanks LA, USER, BA, and CA. Including USER, BA, CA registration, login, transaction, security information binding and LA background graphical interface management page writing.</p>
-                </td>
-            </tr>
-            <tr>
-                <td><p>The Second Stage</p></td>
-                <td>
-                    <p class="heading">HiveBanks backend design and code writing</p>
-                    <p>The second phase of the project is primarily for HiveBanks backend design and code writing. Including back-end logic, interface design, transaction request, security authentication and LA background management functions.</p>
-                </td>
-            </tr>
-            <tr>
-                <td><p>The Third Stage</p></td>
-                <td>
-                    <p class="heading">HiveBanks front-end data interaction</p>
-                    <p class="">The third phase is mainly for data interaction between front and back, enabling login, registration, transaction, security authentication, and LA management functions.</p>
-                </td>
-            </tr>
-            <tr>
-                <td><p>The Sixth Stage</p></td>
-                <td>
-                    <p>In Beta</p>
-                </td>
-            </tr>
-            <tr>
-                <td><p>Expected Online Time</p></td>
-                <td>
-                    <p>
-                        <span>Countdown:</span>
-                        <span>
-                            <span class="days"></span>Days
-                            <span class="hours"></span>Hours
-                            <span class="minutes"></span>Minutes
-                            <span class="seconds"></span>S
-                        </span>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td><p>TRY DEMO</p></td>
-                <td><p><a class="demoLink" href="http://hb.fnying.com" target="_blank">http://hb.fnying.com</a></p></td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Project Download Address</p>
-                    <p>Use Tutorial</p>
-                </td>
-                <td>
-                    <p><a class="demoLink" target="_blank" href="http://hb.fnying.com">http://hb.fnying.com</a></p>
-                    <p><a class="demoLink" target="_blank" href="http://hb.fnying.com">http://hb.fnying.com</a></p>
-                </td>
-            </tr>
+            <tbody id="stage">
+            <!--<tr>-->
+                <!--<td><p>The First Stage</p></td>-->
+                <!--<td>-->
+                    <!--<p class="heading">HiveBanks front-end page design and code writing</p>-->
+                    <!--<p>The first phase of the project was written primarily for the front-end pages of HiveBanks LA, USER, BA, and CA. Including USER, BA, CA registration, login, transaction, security information binding and LA background graphical interface management page writing.</p>-->
+                <!--</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td><p>The Second Stage</p></td>-->
+                <!--<td>-->
+                    <!--<p class="heading">HiveBanks backend design and code writing</p>-->
+                    <!--<p>The second phase of the project is primarily for HiveBanks backend design and code writing. Including back-end logic, interface design, transaction request, security authentication and LA background management functions.</p>-->
+                <!--</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td><p>The Third Stage</p></td>-->
+                <!--<td>-->
+                    <!--<p class="heading">HiveBanks front-end data interaction</p>-->
+                    <!--<p class="">The third phase is mainly for data interaction between front and back, enabling login, registration, transaction, security authentication, and LA management functions.</p>-->
+                <!--</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td><p>The Fourth Stage</p></td>-->
+                <!--<td>-->
+                    <!--<p>In Beta</p>-->
+                <!--</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td><p>Expected Online Time</p></td>-->
+                <!--<td>-->
+                    <!--<p>-->
+                        <!--<span>Countdown:</span>-->
+                        <!--<span>-->
+                            <!--<span class="days"></span>Days-->
+                            <!--<span class="hours"></span>Hours-->
+                            <!--<span class="minutes"></span>Minutes-->
+                            <!--<span class="seconds"></span>S-->
+                        <!--</span>-->
+                    <!--</p>-->
+                <!--</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td><p>TRY DEMO</p></td>-->
+                <!--<td><p><a class="demoLink" href="http://hb.fnying.com" target="_blank">http://hb.fnying.com</a></p></td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td>-->
+                    <!--<p>Project Download Address</p>-->
+                    <!--<p>Use Tutorial</p>-->
+                <!--</td>-->
+                <!--<td>-->
+                    <!--<p><a class="demoLink" target="_blank" href="http://hb.fnying.com">http://hb.fnying.com</a></p>-->
+                    <!--<p><a class="demoLink" target="_blank" href="http://hb.fnying.com">http://hb.fnying.com</a></p>-->
+                <!--</td>-->
+            <!--</tr>-->
             </tbody>
         </table>
     </div>
@@ -350,44 +350,13 @@
     </div>
 </footer>
 <!-- Footer JS includes -->
-<script src="assets/js/cnt.js"></script>
+<!--<script src="assets/js/cnt.js"></script>-->
 <script src="assets/js/application.js"></script>
 <script src="assets/js/particles.min.js"></script>
 <script src="assets/js/particles.js"></script>
 <script src="assets/js/layer/layer.js"></script>
 <script src="assets/js/common.js"></script>
 <script src="assets/js/ContactUs.js"></script>
-<script type="text/javascript">
-    $(function () {
-
-        function TimeDown(endDateStr) {
-            //结束时间
-            var endDate = new Date(endDateStr);
-            //当前时间
-            var nowDate = new Date();
-            //相差的总秒数
-            var totalSeconds = parseInt((endDate - nowDate) / 1000);
-            //天数
-            var days = Math.floor(totalSeconds / (60 * 60 * 24));
-            //取模（余数）
-            var modulo = totalSeconds % (60 * 60 * 24);
-            //小时数
-            var hours = Math.floor(modulo / (60 * 60));
-            modulo = modulo % (60 * 60);
-            //分钟
-            var minutes = Math.floor(modulo / 60);
-            modulo = modulo % (60);
-            //秒
-            var seconds = modulo % 60;
-            $(".days").text(days);
-            $(".hours").text(hours);
-            $(".minutes").text(minutes);
-            $(".seconds").text(seconds);
-        }
-        setInterval(function () {
-            TimeDown("2018/09/15 00:00");
-        }, 1000)
-    })
-</script>
+<script src="assets/js/development.js"></script>
 </body>
 </html>
