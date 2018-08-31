@@ -28,7 +28,7 @@ $(function () {
                 tr+="<tr>" +
                     "<td><p>"+ data[i].stage +"</p></td>" +
                     "<td>" +
-                    "<p>"+ data[i].title +"</p>" +
+                    "<p class='heading'>"+ data[i].title +"</p>" +
                     p +
                     "</td>" +
                     "</tr>";
