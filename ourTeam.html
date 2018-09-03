@@ -20,7 +20,9 @@
 
     <!-- CSS Includes -->
     <link href="assets/css/application.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- Essential JS Includes -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for legacy support -->
     <!--[if lt IE 9]>
@@ -41,10 +43,8 @@
         <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
         <div class="nav">
             <ul>
-                <li><a href="javascript:;">Project Progress</a></li>
-                <li><a href="javascript:;">Use Tutorial</a></li>
-                <li><a href="javascript:;">OurTeam</a></li>
-                <li><a href="javascript:;">DownLoad</a></li>
+                <li><a href="projectProgress.html">projectProgress</a></li>
+                <li><a href="ourTeam.html">ourTeam</a></li>
             </ul>
         </div>
         <!-- Hamburger Menu -->
@@ -56,56 +56,44 @@
 
 </header>
 
-<section class="section section--hero" id="particles-js">
+<section class="section section--hero">
     <div class="wrapper">
-        <h1 class="title">
-            Coming Soon<br>
+        <h1>
+            Online Countdown<br>
+            <span class="days"></span>Days
+            <span class="hours"></span>Hours
+            <span class="minutes"></span>Minutes
+            <span class="seconds"></span>Seconds
         </h1>
-        <p class="text-center">
-            <span class="titleTips">Hivebanks Your expert on digital asset investment,
-                professional digital asset management platform.</span>
-        </p>
-        <div class="timeBigBox">
-            <div class="timeBox">
-                <span class="time days">00</span><br>
-                <span>DAYS</span>
-                <div class="market"></div>
-            </div>
-            <div class="timeBox">
-                <span class="time hours">00</span><br>
-                <span>HOURS</span>
-                <div class="market"></div>
-            </div>
-            <div class="timeBox">
-                <span class="time minutes">00</span><br>
-                <span>MINUTES</span>
-                <div class="market"></div>
-            </div>
-            <div class="timeBox">
-                <span class="time seconds">00</span><br>
-                <span>SECONDS</span>
-                <div class="market"></div>
-            </div>
-        </div>
-        <!--SUBSCRIBE-->
-        <div class="btnBox text-center">
-            <a href="#contentUs" class="subscribeBtn" type="button">SUBSCRIBE</a>
-            <a href="whitePaperindex.html" class="subscribeBtn" type="button">Read Tech Whitepaper</a>
-        </div>
     </div>
-    <canvas class="particles-js-canvas-el" width="375" height="667" style="width: 100%; height: 100%;"></canvas>
 </section>
 
-<section class="section section--role">
-    <div class="wrapper">
-        <h2 class="section-header">Project Process</h2>
+<section class="section">
+    <div class="wrapper world-map-wrapper">
+        <img class="world-map" src="assets/img/world-map.svg" alt="World Map">
+        <div class="la-mark">
+            <div class="markers"><span class="round"></span><span class="ring"></span></div>
+        </div>
+        <div class="la-mark la-mark-2">
+            <div class="markers"><span class="round"></span><span class="ring"></span></div>
+        </div>
+        <div class="la-mark la-mark-3">
+            <div class="markers"><span class="round"></span><span class="ring"></span></div>
+        </div>
+        <div class="la-mark la-mark-4">
+            <div class="markers"><span class="round"></span><span class="ring"></span></div>
+        </div>
+        <div class="la-mark la-mark-5">
+            <div class="markers"><span class="round"></span><span class="ring"></span></div>
+        </div>
     </div>
 </section>
 
 <!-- Footer -->
-<a id="contentUs"></a>
 <footer class="footer section--top100 section--curveTop">
+
     <div class="wrapper">
+
         <div class="form contact-form">
             <h2 class="section-header">Contact Us</h2>
             <div class="form-group">
@@ -138,15 +126,12 @@
 </footer>
 <!-- Footer JS includes -->
 <!--<script src="assets/js/cnt.js"></script>-->
-<!-- Essential JS Includes -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/application.js"></script>
 <script src="assets/js/particles.min.js"></script>
 <script src="assets/js/particles.js"></script>
 <script src="assets/js/layer/layer.js"></script>
 <script src="assets/js/common.js"></script>
 <script src="assets/js/ContactUs.js"></script>
-<script src="assets/js/index.js"></script>
-
+<script src="assets/js/ourTeam.js"></script>
 </body>
 </html>

@@ -15,7 +15,9 @@
   src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/roboto-bold-webfont.woff") format("woff");
   font-weight: 600;
   font-style: normal; }
-
+.text-center{
+  text-align: center;
+}
 .row {
   box-sizing: border-box;
   display: flex;

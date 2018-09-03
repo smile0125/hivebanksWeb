@@ -1,0 +1,45 @@
+.time{
+    font-size: 8rem;
+    margin: 0;
+    font-weight: 400;
+}
+.timeBigBox{
+    display: flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    justify-content: space-around;
+}
+.titleTips{
+    font-weight: 400;
+}
+.timeBox{
+    position: relative;
+    text-align: center;
+}
+.market{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(0,0,0, 0.5);
+}
+.title{
+    font-size: 6rem;
+    margin: 0;
+    box-shadow: 1px 1px 30px rgba(100, 100, 100, 0.5);
+}
+.btnBox{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.subscribeBtn{
+    border: 1px solid #ffffff;
+    padding: 1% 2%;
+    border-radius: 6px;
+}
+.subscribeBtn:hover{
+    background: #ffffff;
+    color: #000000;
+}
