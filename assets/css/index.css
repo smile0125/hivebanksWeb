@@ -4,7 +4,23 @@
     margin: 0;
     font-weight: 400;
 }
-
+.seconds{
+    animation: toggleColor 1s linear infinite;
+}
+@keyframes toggleColor {
+    0%{
+        color: #1E9FFF;
+    }
+    30%{
+        color: #82ca9c;
+    }
+    60%{
+        color: #a494ca;
+    }
+    100%{
+        color: #ffffff;
+    }
+}
 .timeBigBox {
     display: flex;
     display: -moz-flex;
@@ -124,8 +140,20 @@
 }
 .stageItem{
     padding: 5%;
-    border: 1px solid #FFFFFF;
+    animation: showBorder 1s linear infinite;
     margin-bottom: 5%;
+    transition-duration: 3s;
+}
+@keyframes showBorder {
+    0%{
+        border: 1px solid #FFF0FF;
+    }
+    50%{
+        border: 1px solid #67d6ff;
+    }
+    100%{
+        border: 1px solid #FFFFFF;
+    }
 }
 .stageText{
     margin-top: 5%;

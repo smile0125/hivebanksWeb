@@ -69,7 +69,12 @@ $(function () {
         var seconds = modulo % 60;
         if (days < 10) {
             $(".days").text("0" + days);
-        } else {
+        } else if(days <= 0){
+            $(".days").text("00");
+            $(".hours").text("00");
+            $(".minutes").text("00");
+            $(".seconds").text("00");
+        }else {
             $(".days").text(days);
         }
         if (hours < 10) {
