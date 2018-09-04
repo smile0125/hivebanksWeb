@@ -5,7 +5,7 @@
     font-weight: 400;
 }
 .seconds{
-    animation: toggleColor 1s linear infinite;
+    animation: toggleColor 3s linear infinite;
 }
 @keyframes toggleColor {
     0%{
@@ -65,8 +65,24 @@
 }
 
 .subscribeBtn:hover {
-    background: #ffffff;
+
     color: #000000;
+    animation: btnBgColor .5s linear forwards;
+
+}
+@keyframes btnBgColor {
+    0%{
+        background: rgba(255, 255, 255, 0.09);
+        color: #ffffff;
+    }
+    50%{
+        background: rgba(255, 255, 255, 0.41);
+        color: rgba(255, 255, 255, 0.92);
+    }
+    100%{
+        background: rgba(255, 255, 255, 1);
+        color: rgba(0, 0, 0, 0.92);
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
@@ -171,4 +187,41 @@
 }
 .float-right .imgBox{
     padding-left: 1%;
+}
+
+/*useTutorial*/
+.useIconBox .width-40{
+    display: inline-block;
+}
+.useIconText{
+    position: relative;
+}
+.useIconText:after{
+    content: "";
+    height: 2px;
+    position: absolute;
+    background: #fff;
+    left: 0;
+    bottom: -25%;
+    width: 100%;
+    transition-duration: .3s;
+    opacity: 0.3;
+    animation: showBgColor 2s linear infinite;
+}
+@keyframes showBgColor {
+    0%{
+        opacity: 0.3;
+        width: 0;
+    }
+    50%{
+        opacity: 0.6;
+        width: 50%;
+    }
+    50%{
+        opacity: 1;
+        width: 100%;
+    }
+}
+.useTutorialBtn_col{
+    margin-top: 10%;
 }

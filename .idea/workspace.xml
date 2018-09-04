@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32487a16-9c84-4803-9939-7168a7d65df6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/contract.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/customize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/profession.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/safety.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +22,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+            <state relative-caret-position="367">
+              <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -25,12 +31,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="110" column="79" selection-start-line="110" selection-start-column="79" selection-end-line="110" selection-end-column="79" />
+            <state relative-caret-position="155">
+              <caret line="182" column="64" selection-start-line="182" selection-start-column="64" selection-end-line="182" selection-end-column="64" />
               <folding>
                 <element signature="n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#p#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#canvas#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -48,8 +55,8 @@
       <file leaf-file-name="whitePaperindex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/whitePaperindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="148" column="65" lean-forward="true" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="65" />
+            <state relative-caret-position="157">
+              <caret line="177" column="52" lean-forward="true" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -71,8 +78,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="118">
+              <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -80,8 +87,8 @@
       <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="473" column="12" lean-forward="true" selection-start-line="473" selection-start-column="12" selection-end-line="473" selection-end-column="12" />
+            <state relative-caret-position="117">
+              <caret line="1716" column="33" selection-start-line="1716" selection-start-column="24" selection-end-line="1716" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -108,6 +115,11 @@
       <find>text-center</find>
       <find>max-width: 7</find>
       <find>contentUs</find>
+      <find>.stage .stage__icon.flow-icon:before</find>
+      <find>@key</find>
+      <find>flow-icon-responsive</find>
+      <find>flow-icon</find>
+      <find>font-we</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,11 +140,11 @@
         <option value="$PROJECT_DIR$/projectProgress.html" />
         <option value="$PROJECT_DIR$/assets/js/projectProgress.js" />
         <option value="$PROJECT_DIR$/assets/css/application.css" />
-        <option value="$PROJECT_DIR$/assets/js/index.js" />
         <option value="$PROJECT_DIR$/local-alliance.html" />
         <option value="$PROJECT_DIR$/introduction.html" />
         <option value="$PROJECT_DIR$/bitcoin-agency.html" />
         <option value="$PROJECT_DIR$/cash-agency.html" />
+        <option value="$PROJECT_DIR$/assets/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/index.css" />
       </list>
@@ -164,17 +176,6 @@
             <path>
               <item name="hivebanksWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="hivebanksWeb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hivebanksWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hivebanksWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hivebanksWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hivebanksWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,18 +221,18 @@
       <updated>1535627335571</updated>
       <workItem from="1535627338282" duration="1386000" />
       <workItem from="1535679038751" duration="6004000" />
-      <workItem from="1535951267141" duration="13167000" />
+      <workItem from="1535951267141" duration="16535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20557000" />
+    <option name="totallyTimeSpent" value="23925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -240,7 +241,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24242425" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24242425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -335,13 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/particles.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -393,25 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/whitePaperindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="148" column="65" lean-forward="true" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="65" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="473" column="12" lean-forward="true" selection-start-line="473" selection-start-column="12" selection-end-line="473" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/bg-pattern-3.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -434,22 +409,58 @@
     <entry file="file://$PROJECT_DIR$/assets/img/php.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/profession.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/profits-c.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/contract.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whitePaperindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="177" column="52" lean-forward="true" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="1716" column="33" selection-start-line="1716" selection-start-column="24" selection-end-line="1716" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="110" column="79" selection-start-line="110" selection-start-column="79" selection-end-line="110" selection-end-column="79" />
+        <state relative-caret-position="155">
+          <caret line="182" column="64" selection-start-line="182" selection-start-column="64" selection-end-line="182" selection-end-column="64" />
           <folding>
             <element signature="n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#canvas#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="118">
+          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
         </state>
       </provider>
     </entry>
