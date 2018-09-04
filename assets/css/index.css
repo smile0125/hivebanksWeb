@@ -68,7 +68,6 @@
 
     color: #000000;
     animation: btnBgColor .5s linear forwards;
-
 }
 @keyframes btnBgColor {
     0%{
