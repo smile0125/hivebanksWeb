@@ -1,4 +1,7 @@
 /*countdown*/
+img{
+    width: 100%;
+}
 .time {
     font-size: 8rem;
     margin: 0;
