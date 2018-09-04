@@ -67,7 +67,7 @@ img {
 
 .subscribeBtn {
     border: 1px solid #ffffff;
-    padding: 3% 5%;
+    padding: 1% 2%;
     border-radius: 6px;
 }
 
@@ -123,6 +123,9 @@ img {
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+    .subscribeBtn{
+        padding: 3% 5%;
     }
 }
 
