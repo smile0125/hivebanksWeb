@@ -38,7 +38,7 @@
 }
 
 .btnBox {
-    margin-top: 6%;
+    margin-top: 10%;
     margin-bottom: 6%;
 }
 
@@ -54,25 +54,31 @@
 }
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
-    .timeBigBox{
+    .timeBigBox {
         margin-top: 10%;
     }
-    .title,.time{
+
+    .title, .time {
         font-size: 3rem;
     }
-    .titleTips_p{
+
+    .titleTips_p {
         margin-top: 10%;
     }
-    .titleTips{
+
+    .titleTips {
         font-size: 12px;
     }
-    .market{
+
+    .market {
         height: 60%;
     }
-    .timeText{
+
+    .timeText {
         font-size: 14px;
     }
-    .btnBox{
+
+    .btnBox {
         margin-top: 15%;
         margin-bottom: 10%;
         display: flex;
@@ -82,3 +88,59 @@
 }
 
 /*project process*/
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+.text-right{
+    text-align: right;
+}
+.flex{
+    display: flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -moz-box;
+}
+.flex.center{
+    align-items: center;
+}
+.flex.justify-center{
+    justify-content: center;
+}
+.width-100{
+    width: 100%;
+}
+.width-40{
+    width: 40%;
+}
+.padding-left-1{
+    padding-left: 1%;
+}
+.padding-right-1{
+    padding-right: 1%;
+}
+.stageItem{
+    padding: 5%;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 5%;
+}
+.stageText{
+    margin-top: 5%;
+}
+.float-left .stageInnerText{
+    border-left: 2px solid #FFFFFF;
+    padding-left: 1%;
+}
+.float-right .stageInnerText{
+    border-right: 2px solid #FFFFFF;
+    padding-right: 1%;
+}
+.float-left .imgBox{
+    padding-right: 1%;
+}
+.float-right .imgBox{
+    padding-left: 1%;
+}
