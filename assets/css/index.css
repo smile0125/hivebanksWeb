@@ -1,29 +1,33 @@
 /*countdown*/
-img{
+img {
     width: 100%;
 }
+
 .time {
     font-size: 8rem;
     margin: 0;
     font-weight: 400;
 }
-.seconds{
+
+.seconds {
     animation: toggleColor 3s linear infinite;
 }
+
 @keyframes toggleColor {
-    0%{
+    0% {
         color: #1E9FFF;
     }
-    30%{
+    30% {
         color: #82ca9c;
     }
-    60%{
+    60% {
         color: #a494ca;
     }
-    100%{
+    100% {
         color: #ffffff;
     }
 }
+
 .timeBigBox {
     display: flex;
     display: -moz-flex;
@@ -72,16 +76,17 @@ img{
     color: #000000;
     animation: btnBgColor .5s linear forwards;
 }
+
 @keyframes btnBgColor {
-    0%{
+    0% {
         background: rgba(255, 255, 255, 0.09);
         color: #ffffff;
     }
-    50%{
+    50% {
         background: rgba(255, 255, 255, 0.41);
         color: rgba(255, 255, 255, 0.92);
     }
-    100%{
+    100% {
         background: rgba(255, 255, 255, 1);
         color: rgba(0, 0, 0, 0.92);
     }
@@ -129,76 +134,93 @@ img{
 .float-left {
     float: left;
 }
-.text-right{
+
+.text-right {
     text-align: right;
 }
-.flex{
+
+.flex {
     display: flex;
     display: -ms-flex;
     display: -o-flex;
     display: -moz-box;
 }
-.flex.center{
+
+.flex.center {
     align-items: center;
 }
-.flex.justify-center{
+
+.flex.justify-center {
     justify-content: center;
 }
-.width-100{
+
+.width-100 {
     width: 100%;
 }
-.width-40{
+
+.width-40 {
     width: 40%;
 }
-.padding-left-1{
+
+.padding-left-1 {
     padding-left: 1%;
 }
-.padding-right-1{
+
+.padding-right-1 {
     padding-right: 1%;
 }
-.stageItem{
+
+.stageItem {
     padding: 5%;
     animation: showBorder 1s linear infinite;
     margin-bottom: 5%;
     transition-duration: 3s;
 }
+
 @keyframes showBorder {
-    0%{
+    0% {
         border: 1px solid #FFF0FF;
     }
-    50%{
+    50% {
         border: 1px solid #67d6ff;
     }
-    100%{
+    100% {
         border: 1px solid #FFFFFF;
     }
 }
-.stageText{
+
+.stageText {
     margin-top: 5%;
 }
-.float-left .stageInnerText{
+
+.float-left .stageInnerText {
     border-left: 2px solid #FFFFFF;
     padding-left: 1%;
 }
-.float-right .stageInnerText{
+
+.float-right .stageInnerText {
     border-right: 2px solid #FFFFFF;
     padding-right: 1%;
 }
-.float-left .imgBox{
+
+.float-left .imgBox {
     padding-right: 1%;
 }
-.float-right .imgBox{
+
+.float-right .imgBox {
     padding-left: 1%;
 }
 
 /*useTutorial*/
-.useIconBox .width-40{
+.useIconBox .width-40 {
     display: inline-block;
 }
-.useIconText{
+
+.useIconText {
     position: relative;
 }
-.useIconText:after{
+
+.useIconText:after {
     content: "";
     height: 2px;
     position: absolute;
@@ -210,20 +232,89 @@ img{
     opacity: 0.3;
     animation: showBgColor 2s linear infinite;
 }
+
 @keyframes showBgColor {
-    0%{
+    0% {
         opacity: 0.3;
         width: 0;
     }
-    50%{
+    50% {
         opacity: 0.6;
         width: 50%;
     }
-    50%{
+    50% {
         opacity: 1;
         width: 100%;
     }
 }
-.useTutorialBtn_col{
+
+.useTutorialBtn_col {
     margin-top: 10%;
+}
+
+/*our Team*/
+.rotateBox {
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+.rotateBox:hover{
+    border: 1px solid #ffffff;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.rotateBefore{
+    text-align: center;
+}
+.rotate_name{
+    font-weight: 400;
+}
+.rotateBack {
+    background: #3b3e48;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    opacity: 0;
+}
+.rotateBox .rotateBefore{
+    transition-duration: 0.5s;
+}
+.rotateBox:hover .rotateBefore{
+    animation: rotateBeforeAnimation 0.5s linear both;
+}
+
+@keyframes rotateBeforeAnimation {
+    0% {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: rotateY(90deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotateY(180deg);
+        opacity: 0.5;
+    }
+}
+.rotateBox:hover .rotateBack{
+    animation: rotateBackBox 0.5s linear both;
+}
+@keyframes rotateBackBox {
+    0% {
+        transform: rotateY(-180deg);
+        opacity: 0;
+    }
+    50% {
+        transform: rotateY(-90deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
 }

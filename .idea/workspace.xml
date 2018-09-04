@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32487a16-9c84-4803-9939-7168a7d65df6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="228" column="18" selection-start-line="220" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+            <state relative-caret-position="146">
+              <caret line="200" column="57" selection-start-line="200" selection-start-column="57" selection-end-line="200" selection-end-column="57" />
               <folding>
                 <element signature="n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#p#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -43,8 +44,8 @@
       <file leaf-file-name="development.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/development.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="149" column="47" lean-forward="true" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
+            <state relative-caret-position="212">
+              <caret line="277" column="82" selection-start-line="277" selection-start-column="61" selection-end-line="277" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -75,8 +76,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+            <state relative-caret-position="131">
+              <caret line="273" column="16" lean-forward="true" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -118,6 +119,7 @@
       <find>flow-icon</find>
       <find>font-we</find>
       <find>subscribeBtn</find>
+      <find>rotateBox</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,12 +221,12 @@
       <updated>1535627335571</updated>
       <workItem from="1535627338282" duration="1386000" />
       <workItem from="1535679038751" duration="6004000" />
-      <workItem from="1535951267141" duration="17172000" />
+      <workItem from="1535951267141" duration="22127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24562000" />
+    <option name="totallyTimeSpent" value="29517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -343,13 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/particles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local-alliance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -397,13 +392,6 @@
     <entry file="file://$PROJECT_DIR$/assets/img/html.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/development.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="149" column="47" lean-forward="true" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/php.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -423,6 +411,20 @@
     <entry file="file://$PROJECT_DIR$/assets/img/contract.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="1716" column="33" selection-start-line="1716" selection-start-column="24" selection-end-line="1716" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/particles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/whitePaperindex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -435,24 +437,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/application.css">
+    <entry file="file://$PROJECT_DIR$/assets/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="1716" column="33" selection-start-line="1716" selection-start-column="24" selection-end-line="1716" selection-end-column="33" />
+        <state relative-caret-position="131">
+          <caret line="273" column="16" lean-forward="true" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/index.css">
+    <entry file="file://$PROJECT_DIR$/development.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+        <state relative-caret-position="212">
+          <caret line="277" column="82" selection-start-line="277" selection-start-column="61" selection-end-line="277" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="228" column="18" selection-start-line="220" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+        <state relative-caret-position="146">
+          <caret line="200" column="57" selection-start-line="200" selection-start-column="57" selection-end-line="200" selection-end-column="57" />
           <folding>
             <element signature="n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
