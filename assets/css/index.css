@@ -314,6 +314,7 @@ img {
     padding: 20px;
     font-size: 14px;
     line-height: 1.5;
+    overflow: auto;
 }
 .rotateBox .rotateBefore{
     transition-duration: 0.5s;
