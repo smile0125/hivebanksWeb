@@ -72,7 +72,7 @@ img {
 }
 
 .subscribeBtn:hover {
-
+    background: #ffffff;
     color: #000000;
     animation: btnBgColor .5s linear forwards;
 }
@@ -124,7 +124,8 @@ img {
         align-items: center;
         justify-content: space-around;
     }
-    .subscribeBtn{
+
+    .subscribeBtn {
         padding: 3% 5%;
     }
 }
@@ -214,31 +215,38 @@ img {
 .float-right .imgBox {
     padding-left: 1%;
 }
+
 @media only screen and (max-width: 768px) and (min-width: 320px) {
-    .stageItem{
+    .stageItem {
         width: 100%;
     }
-    .stageText{
+
+    .stageText {
         display: block;
         text-align: center;
     }
-    .imgBox{
+
+    .imgBox {
         width: 20%;
         display: inline-block;
     }
-    .stageInnerText{
+
+    .stageInnerText {
         text-align: center;
         font-size: 14px;
-        border: unset!important;
+        border: unset !important;
         padding: 0;
     }
-    .useIconBox{
+
+    .useIconBox {
         margin-bottom: 10%;
     }
-    .useIconBox div{
+
+    .useIconBox div {
         width: 20%;
     }
-    .column__sm--6{
+
+    .column__sm--6 {
         width: 50%;
     }
 }
@@ -291,17 +299,21 @@ img {
     border-radius: 5px;
     transition-duration: 0.3s;
 }
-.rotateBox:hover{
+
+.rotateBox:hover {
     border: 1px solid #ffffff;
     transform: scale(1.05);
     cursor: pointer;
 }
-.rotateBefore{
+
+.rotateBefore {
     text-align: center;
 }
-.rotate_name{
+
+.rotate_name {
     font-weight: 400;
 }
+
 .rotateBack {
     background: #3b3e48;
     position: absolute;
@@ -316,10 +328,12 @@ img {
     line-height: 1.5;
     overflow: auto;
 }
-.rotateBox .rotateBefore{
+
+.rotateBox .rotateBefore {
     transition-duration: 0.5s;
 }
-.rotateBox:hover .rotateBefore{
+
+.rotateBox:hover .rotateBefore {
     animation: rotateBeforeAnimation 0.5s linear both;
 }
 
@@ -337,9 +351,11 @@ img {
         opacity: 0.5;
     }
 }
-.rotateBox:hover .rotateBack{
+
+.rotateBox:hover .rotateBack {
     animation: rotateBackBox 0.5s linear both;
 }
+
 @keyframes rotateBackBox {
     0% {
         transform: rotateY(-180deg);
@@ -353,4 +369,42 @@ img {
         transform: rotateY(0deg);
         opacity: 1;
     }
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .rotateBox{
+        display: flex;
+        align-items: center;
+        height: 208px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+    .rotateBefore{
+        width: 95%;
+    }
+    .rotateBack{
+        position: relative;
+        opacity: 1;
+        padding: 5%;
+    }
+    .assistant{
+        display: none;
+    }
+}
+
+/*download*/
+.downloadBtnBox {
+    margin-top: 5%;
+}
+
+.useTutorialLink {
+    color: #00f9ff !important;
+}
+
+.useTutorialLink:hover {
+    color: #c700ff !important;
+}
+
+.downloadTextBox p {
+    line-height: 2;
 }
