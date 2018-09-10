@@ -1,11 +1,6 @@
 $(function () {
     //code
-    GetImgCode(function (response) {
-        console.log(response);
-    }, function (response) {
-        layer.msg("response.msg");
-        return;
-    });
+    GetImgCode();
 
     //register
     $("#email").focus(function () {

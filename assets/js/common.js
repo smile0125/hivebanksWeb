@@ -125,10 +125,9 @@ function GetStageContent(suc_func, error_func) {
     CallApi(api_url, post_data, suc_func, error_func);
 }
 //get code
-function GetImgCode(suc_func, error_func) {
-    var api_url = "code.php",
-        post_data = {};
-        CallCodeApi(api_url, post_data, suc_func, error_func);
+function GetImgCode() {
+    var src = "ow.fnying.com/inc/code.php";
+    $('.imgCode').attr("src", src);
 }
 
 //login la
