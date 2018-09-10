@@ -38,3 +38,18 @@
 .redBorder{
     border: 1px solid red!important;
 }
+.imgCode{
+    width: 100px;
+    height: 100%;
+    margin-left: 1%;
+    display: block;
+}
+.flex{
+    display: flex;
+    display: -moz-box;
+    display: -o-flex;
+    display: -ms-flex;
+}
+.flex.center{
+    align-items: center;
+}
