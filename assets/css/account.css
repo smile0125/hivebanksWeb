@@ -12,6 +12,7 @@ html, body{
     width: 16%;
     border-radius: 5px;
     padding: 1%;
+    float: left;
 }
 .left_nav ul{
     padding-left: 0;
@@ -22,6 +23,10 @@ html, body{
 }
 .left_nav li a:hover{
     color: #00ffe2;
+}
+.right_nav{
+    width: 84%;
+    float: right;
 }
 .section--curveTop{
     background: unset;
