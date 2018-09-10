@@ -12,13 +12,13 @@ $(function () {
                     }, 1000);
                 }
                 if(data[i].stage == 'Use Tutorial'){
-                    $('.useTutorial').attr('src', data[i].content);
+                    $('.useTutorial').attr('href', data[i].content);
                 }
                 if(data[i].stage == 'TRY DEMO'){
-                    $('.tryDemo').attr('src', data[i].content);
+                    $('.tryDemo').attr('href', data[i].content);
                 }
                 if(data[i].stage == 'Project Download Address'){
-                    $('.downLoad').attr('src', data[i].content);
+                    $('.downLoad').attr('href', data[i].content);
                 }
             });
             $("#stage").html(tr);
