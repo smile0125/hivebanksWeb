@@ -27,8 +27,9 @@ $(function () {
         var $this = $(this), btnText = $(this).text();
         if(DisableClick($this)) return;
         LoginLa(email, pass_word_hash, function (response) {
-            layer.msg("Registration success");
+            layer.msg("Login success");
             ActiveClick($this, btnText);
+            window.location.href = "account.html"
         }, function (response) {
             layer.msg("Registration failed");
             ActiveClick($this, btnText);

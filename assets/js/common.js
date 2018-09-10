@@ -101,11 +101,11 @@ function LoginLa(email, pass_word_hash, suc_func, error_func) {
 
 //register la
 function RegisterLa(email, pass_word_hash, name, suc_func, error_func) {
-    var api_url = "",
+    var api_url = "reg_email.php",
         post_data = {
             "email": email,
             "pass_word_hash": pass_word_hash,
-            "name": name
+            "real_name": name
         };
     CallApi(api_url, post_data, suc_func, error_func);
 }
@@ -138,7 +138,7 @@ function DisableClick($this, btnText) {
         return true;
     }
 
-    btnText = btnText ? btnText : "处理中";
+    btnText = btnText ? btnText : "Loading";
     $this.attr('data-clickStatus', 0);
     $this.html(btnText);
     return false;

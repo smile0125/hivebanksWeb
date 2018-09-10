@@ -37,9 +37,10 @@ $(function () {
         if(DisableClick($this)) return;
         RegisterLa(email, pass_word_hash, name, function (response) {
             layer.msg("Registration success");
+            console.log(response);
             ActiveClick($this, btnText);
         }, function (response) {
-            layer.msg("Registration failed");
+            layer.msg(response.errmsg);
             ActiveClick($this, btnText);
         });
     })

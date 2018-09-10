@@ -1,0 +1,31 @@
+html, body{
+    height: 100%;
+}
+.header{
+    padding: 0;
+}
+.content{
+    height: 100%;
+}
+.left_nav{
+    border: 1px solid #ffffff;
+    width: 16%;
+    border-radius: 5px;
+    padding: 1%;
+}
+.left_nav ul{
+    padding-left: 0;
+}
+.left_nav li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+.left_nav li a:hover{
+    color: #00ffe2;
+}
+.section--curveTop{
+    background: unset;
+}
+.wrapper{
+    max-width: unset;
+}
