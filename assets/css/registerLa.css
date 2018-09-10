@@ -1,0 +1,40 @@
+.btnBox {
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+.subscribeBtn {
+    border: 1px solid #ffffff;
+    padding: 1% 2%;
+    border-radius: 6px;
+}
+
+.subscribeBtn:hover {
+    background: #ffffff;
+    color: #000000;
+    animation: btnBgColor .5s linear forwards;
+}
+
+@keyframes btnBgColor {
+    0% {
+        background: rgba(255, 255, 255, 0.09);
+        color: #ffffff;
+    }
+    50% {
+        background: rgba(255, 255, 255, 0.41);
+        color: rgba(255, 255, 255, 0.92);
+    }
+    100% {
+        background: rgba(255, 255, 255, 1);
+        color: rgba(0, 0, 0, 0.92);
+    }
+}
+.signUpBtnBox{
+    margin-top: 5%;
+}
+.registerText{
+    font-size: 12px;
+}
+.redBorder{
+    border: 1px solid red!important;
+}

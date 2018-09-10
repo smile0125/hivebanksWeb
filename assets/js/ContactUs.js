@@ -17,7 +17,7 @@ $(function(){
         var first_name=$("input[name='firstname']").val();
         var last_name=$("input[name='lastname']").val();
         // var user_name=last_name+first_name;
-        var email=$("input[name='email']").val();
+        var email=$(".contentUsEmail").val();
         var content=$("textarea[name='message']").val();
 
         if(first_name.length<=0){layer.msg("First name cannot be empty.")}
@@ -33,7 +33,7 @@ $(function(){
             if (response.errcode == '0') {
                 $("input[name='firstname']").val("");
                 $("input[name='lastname']").val("");
-                $("input[name='email']").val("");
+                $(".contentUsEmail").val("");
                 $("textarea[name='message']").val("");
             }
             layer.msg(response.errmsg);

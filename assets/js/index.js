@@ -11,34 +11,15 @@ $(function () {
                         TimeDown(endDateStr);
                     }, 1000);
                 }
-
-                // if(data[i].content.substring(0, 4) == 'http'){
-                //     http = data[i].content;
-                //     p = "<p>" +
-                //         "<a class='demoLink' href="+ http +" target='_blank'>"+ http +"</a>" +
-                //         "</p>"
-                // }else if(!isNaN(data[i].content.substring(0, 4))){
-                //     p = "<p>" +
-                //         "<span>Countdown:</span>" +
-                //         "<span class='days'></span>Days"+
-                //         "<span class='hours'></span>Hours"+
-                //         "<span class='minutes'></span>Minutes"+
-                //         "<span class='seconds'></span>S"+
-                //         "</p>";
-                //     endDateStr = data[i].content;
-                //     setInterval(function () {
-                //         TimeDown(endDateStr);
-                //     }, 1000);
-                // }else {
-                //     p = "<p>"+ data[i].content +"</p>"
-                // }
-                // tr+="<tr>" +
-                //     "<td><p>"+ data[i].stage +"</p></td>" +
-                //     "<td>" +
-                //     "<p class='heading'>"+ data[i].title +"</p>" +
-                //     p +
-                //     "</td>" +
-                //     "</tr>";
+                if(data[i].stage == 'Use Tutorial'){
+                    $('.useTutorial').attr('src', data[i].content);
+                }
+                if(data[i].stage == 'TRY DEMO'){
+                    $('.tryDemo').attr('src', data[i].content);
+                }
+                if(data[i].stage == 'Project Download Address'){
+                    $('.downLoad').attr('src', data[i].content);
+                }
             });
             $("#stage").html(tr);
             layer.msg(response.errmsg);

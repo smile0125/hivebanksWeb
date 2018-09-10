@@ -89,6 +89,27 @@ function GetStageContent(suc_func, error_func) {
     CallApi(api_url, post_data, suc_func, error_func);
 }
 
+//login la
+function LoginLa(email, pass_word_hash, suc_func, error_func) {
+    var api_url = "",
+        post_data = {
+            "email": email,
+            "pass_word_hash": pass_word_hash
+        };
+    CallApi(api_url, post_data, suc_func, error_func);
+}
+
+//register la
+function RegisterLa(email, pass_word_hash, name, suc_func, error_func) {
+    var api_url = "",
+        post_data = {
+            "email": email,
+            "pass_word_hash": pass_word_hash,
+            "name": name
+        };
+    CallApi(api_url, post_data, suc_func, error_func);
+}
+
 //contact us
 function ContactUs(first_name, last_name, email, content, suc_func, error_func) {
     var api_url = 'contact_us.php';
